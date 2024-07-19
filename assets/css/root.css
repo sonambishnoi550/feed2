@@ -1,0 +1,130 @@
+:root {
+    /*-----------------------------font-size------------------------*/
+    --fs-sm: 12px;
+    --fs-md: 14px;
+    --fs-lg: 16px;
+    --fs-2lg: 20px;
+    --fs-xl: 24px;
+    --fs-xxl: 26px;
+    --fs-2xl: 48px;
+}
+/* font size */
+.event {
+    font-size: var(--fs-xxl);
+}
+
+.home {
+    font-size: var(--fs-lg);
+}
+
+.btn {
+    font-size: var(--fs-lg);
+}
+
+.user {
+    font-size: var(--fs-lg);
+}
+
+.name {
+    font-size: var(--fs-2xl);
+}
+
+.user-text {
+    font-size: var(--fs-lg);
+}
+
+.events {
+    font-size: var(--fs-lg);
+}
+
+.Card-name {
+    font-size: var(--fs-lg);
+}
+
+.Card-text {
+    font-size: var(--fs-sm);
+}
+
+.number {
+    font-size: var(--fs-xxl);
+}
+
+.more {
+    font-size: var(--fs-lg);
+}
+
+.posts {
+    font-size: var(--fs-2xl);
+}
+
+.profile-name {
+    font-size: var(--fs-xl);
+}
+
+.event-name {
+    font-size: var(--fs-lg);
+}
+
+.user-heading {
+    font-size: var(--fs-xl);
+}
+
+.profile-date {
+    font-size: var(--fs-lg);
+}
+
+.profile-details {
+    font-size: var(--fs-lg);
+}
+
+.likes {
+    font-size: var(--fs-lg);
+}
+
+.comment {
+    font-size: var(--fs-2lg);
+}
+
+.postbtn {
+    font-size: var(--fs-2lg);
+}
+
+.user-name {
+    font-size: var(--fs-lg);
+}
+
+.user-comment {
+    font-size: var(--fs-lg);
+}
+
+.remove {
+    font-size: var(--fs-lg);
+}
+
+.f-text {
+    font-size: var(--fs-md);
+}
+
+.gallery1 {
+    font-size: var(--fs-md);
+}
+
+.more1 {
+    font-size: var(--fs-sm);
+}
+
+.company {
+    font-size: var(--fs-md);
+}
+.more2{
+    font-size: var(--fs-lg);
+}
+.plus1{
+    font-size: var(--fs-xxl);
+}
+
+@media(min-width:576px) {
+    :root {
+        --fs-xl: 36px;
+    }
+}
