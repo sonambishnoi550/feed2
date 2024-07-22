@@ -20,7 +20,6 @@ header {
     width: 100%;
     background-color: white;
     box-shadow: 0px 8px 35px 0px #0000000D;
-
 }
 
 .gap-60 {
@@ -54,7 +53,6 @@ header {
 }
 
 /* --------------------------section start----------------- */
-
 .py-67 {
     padding-top: 67px;
     padding-bottom: 67px;
@@ -97,12 +95,10 @@ header {
     text-align: left;
     color: #666666;
     padding-top: 10px;
-
 }
 
 .events {
     font-family: 'Poppins', sans-serif;
-
     font-weight: 600;
     line-height: 24px;
     text-align: left;
@@ -143,7 +139,6 @@ header {
 .pl-13 {
     padding-left: 13px;
 }
-
 
 .Card-text {
     font-family: 'Poppins', sans-serif;
@@ -187,12 +182,10 @@ header {
 
 .more {
     font-family: 'Poppins', sans-serif;
-
     font-weight: 400;
     line-height: 24px;
     text-align: center;
     color: #5E5F66;
-
 }
 
 .pt-10 {
@@ -214,9 +207,8 @@ header {
 }
 
 .photobox:hover>img {
-    scale: 1.2;
+    transform: scale(1.2);
 }
-
 
 .line-1 {
     width: 166px;
@@ -330,7 +322,6 @@ header {
     position: absolute;
     bottom: 7%;
     right: 7%;
-
 }
 
 .bg-color1 {
@@ -402,7 +393,6 @@ header {
     margin-left: 20px;
     border-radius: 0px 20px 20px 20px;
     padding: 14px 20px;
-
 }
 
 .username {
@@ -420,7 +410,6 @@ header {
     line-height: 24px;
     text-align: left;
     color: #666666;
-
 }
 
 .mt-47 {
@@ -448,22 +437,25 @@ header {
     padding-left: 5px;
     white-space: nowrap;
     cursor: pointer;
-
 }
 
 .mt-24 {
     margin-top: 24px;
 }
-.pt-15{
+
+.pt-15 {
     padding-top: 15px;
 }
-.p-42{
+
+.p-42 {
     padding: 42px;
 }
-.br-30px{
+
+.br-30px {
     border-radius: 30px;
 }
-.ml-10{
+
+.ml-10 {
     margin-left: 10px;
 }
 
@@ -480,29 +472,30 @@ header {
 .resize {
     resize: none;
 }
-.mw-1320{
+
+.mw-1320 {
     min-width: 1320px;
     padding: 0px 12px;
 }
-.height{
+
+.height {
     height: 263px;
 }
-.h-63{
+
+.h-63 {
     height: 63px;
 }
-.pt-20{
-    padding-top: 20px;
 
+.pt-20 {
+    padding-top: 20px;
 }
-.border-b{
-   
+
+.border-b {
     border-bottom: none;
     border-top: none;
 }
 
-
 /* -------------3rd section---------------------------- */
-
 .radius {
     border: 1px solid #00000033;
     border-radius: 30px;
@@ -548,7 +541,6 @@ header {
     color: #FFFFFF;
     margin-bottom: 20px;
     margin-top: 20px;
-
 }
 
 footer ul li:first-child {
@@ -559,7 +551,6 @@ footer ul li:first-child {
     color: #FFFFFF;
     margin-bottom: 20px;
     margin-top: 20px;
-
 }
 
 footer ul li:not(:first-child) a {
@@ -574,7 +565,6 @@ footer ul li:not(:first-child) a {
 }
 
 .more1 {
-
     height: 62px;
     background: #2D3CAE87;
     font-family: "Poppins", sans-serif;
@@ -587,17 +577,15 @@ footer ul li:not(:first-child) a {
     align-items: center;
     justify-content: center;
     width: 100%;
+    text-decoration: none;
 }
 
 .more2 {
-
     font-weight: 600;
     line-height: 24px;
     text-align: center;
     color: gray;
-
     padding-top: 0;
-
 }
 
 .plus1 {
@@ -623,7 +611,6 @@ footer ul li:not(:first-child) a {
     display: flex;
     justify-content: center;
     padding-bottom: 30px;
-
 }
 
 .dark {
@@ -641,7 +628,6 @@ footer ul li:not(:first-child) a {
     background-color: white;
 }
 
-
 .dark:hover::after {
     width: 100%;
     left: 0;
@@ -650,8 +636,6 @@ footer ul li:not(:first-child) a {
 .dark:hover {
     color: #01C8FF;
 }
-
-
 
 /* ----------------responsive start--------------------- */
 @media (max-width:992px) {
@@ -696,7 +680,6 @@ footer ul li:not(:first-child) a {
 @media(max-width:768px) {
     .column {
         flex-direction: column;
-
     }
 
     .heroimage {
