@@ -348,7 +348,7 @@ header {
     border: 2px solid #9CA1BE;
     border-radius: 50px;
     background-color: white;
-    padding: 5px 9px;
+    padding: 10px 20px;
     width: 100%;
     margin-top: 26px;
 }
@@ -364,7 +364,7 @@ header {
     line-height: 30px;
     text-align: left;
     color: #666666;
-    padding: 20px;
+    padding-left: 10px;
     outline: none;
     border: none;
 }
@@ -474,7 +474,7 @@ header {
 }
 
 .mw-1320 {
-    min-width: 1320px;
+    max-width: 1320px;
     padding: 0px 12px;
 }
 
@@ -565,7 +565,7 @@ footer ul li:not(:first-child) a {
 }
 
 .more1 {
-    height: 62px;
+    height: 100%;
     background: #2D3CAE87;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
